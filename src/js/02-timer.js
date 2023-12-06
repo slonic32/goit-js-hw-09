@@ -64,10 +64,10 @@ function startCount() {
 
 function stopCount() {
   clearInterval(timerID);
-  days.textContent = 0;
-  hours.textContent = 0;
-  minutes.textContent = 0;
-  seconds.textContent = 0;
+  days.textContent = '00';
+  hours.textContent = '00';
+  minutes.textContent = '00';
+  seconds.textContent = '00';
 }
 
 function printTime() {
